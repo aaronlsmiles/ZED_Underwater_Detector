@@ -1,4 +1,8 @@
-# ZED SDK - Object Detection
+# ZED Underwater Detector
+
+Modifications and enhancements to the below ZED SDK Custom Detector (YOLOv8), recalibrated for underwater use and assessment of transparent plastic bottles detection in acquatic scenes. 
+
+# ZED SDK - Object Detection (detector.py)
 
 This sample shows how to detect custom objects using the official Pytorch implementation of YOLOv8 from a ZED camera and ingest them into the ZED SDK to extract 3D informations and tracking for each objects.
 
@@ -34,5 +38,6 @@ python detector.py --weights yolov8m.pt # [--img_size 512 --conf_thres 0.1 --svo
 This sample can use any model trained with YOLOv8, including custom trained one. For a getting started on how to trained a model on a custom dataset with YOLOv5, see here https://docs.ultralytics.com/tutorials/train-custom-datasets/
 
 ## Support
+
 
 If you need assistance go to our Community site at https://community.stereolabs.com/
